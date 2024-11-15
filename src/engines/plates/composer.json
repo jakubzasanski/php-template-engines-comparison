@@ -1,0 +1,23 @@
+{
+  "name": "engines/plates",
+  "description": "",
+  "version": "1.0.0",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Jakub Zasański",
+      "email": "jakub.zasanski.dev@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^8.3",
+    "league/plates": "^3.6"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}

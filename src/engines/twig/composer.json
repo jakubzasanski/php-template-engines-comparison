@@ -1,0 +1,23 @@
+{
+  "name": "engines/twig",
+  "description": "",
+  "version": "1.0.0",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Jakub Zasański",
+      "email": "jakub.zasanski.dev@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^8.3",
+    "twig/twig": "^3.14"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}

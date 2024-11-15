@@ -1,0 +1,23 @@
+{
+  "name": "engines/smarty",
+  "description": "",
+  "version": "1.0.0",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Jakub Zasański",
+      "email": "jakub.zasanski.dev@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^8.3",
+    "smarty/smarty": "^5.4"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}

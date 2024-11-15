@@ -1,0 +1,28 @@
+{
+  "name": "jakubzasanski/php-template-engines-comparison",
+  "description": "",
+  "version": "1.0.0",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Jakub Zasański",
+      "email": "jakub.zasanski.dev@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^8.3",
+    "monolog/monolog": "^3.8"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "scripts": {
+    "post-install-cmd": [
+      "for dir in src/engines/*; do [ -d $dir ] && cd $dir && composer install && cd -; done"
+    ]
+  }
+}
